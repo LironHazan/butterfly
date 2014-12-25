@@ -52,15 +52,14 @@ def motd(socket):
     return (
 '''
 
-Booooooo  ooooo       .o.       ooooooooo.
- `8888    d8'       .888.      `888   `Y88.
-   Y888..8P        .8"888.      888   .d88'
-    `8888'        .8' `888.     888ooo88P'
-   .8PY888.      .88ooo8888.    888
-  d8'  `888b    .8'     `888.   888
-o888o  o88888o o88o     o8888o o888o
+ .o88b. db       .d88b.  db    db d8888b. d888888b d88888b db    db
+d8P  Y8 88      .8P  Y8. 88    88 88   8D    88    88       8b  d8
+8P      88      88    88 88    88 88   88    88    88ooo     8bd8
+8b      88      88    88 88    88 88   88    88    88~~~      88
+Y8b  d8 88booo.  8b  d8' 88b  d88 88  .8D   .88.   88         88
+  Y88P  Y88888P   Y88P'  ~Y8888P' Y8888D' Y888888P YP         YP
 
-X
+
 '''
         .replace('B', '\x1b[34;1m')
         .replace('G', '\x1b[32;1m')
