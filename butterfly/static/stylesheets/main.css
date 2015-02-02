@@ -120,6 +120,7 @@ html, body {
 /* line 64, ../sass/main.sass */
 .line {
   overflow: visible;
+  font-size: small;
 }
 /* line 67, ../sass/main.sass */
 .line .inline-html {
