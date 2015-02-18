@@ -49,8 +49,7 @@ def u(s):
 
 
 def motd(socket):
-    return (
-)
+    return ('\n')
 
 
 @url(r'/(?:user/(.+))?/?(?:wd/(.+))?')
